@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "43071ce9860ed45b723d02c32b09f49e",
+    "revision": "484b1d50a3fb5efa2e272667c4611b15",
     "url": "/amplifi/index.html"
   },
   {
-    "revision": "ae0861511f1d510fd93d",
+    "revision": "c9f7e41395aeed4188b9",
     "url": "/amplifi/static/css/main.cda36a3e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/amplifi/static/js/2.2de7d536.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ae0861511f1d510fd93d",
-    "url": "/amplifi/static/js/main.1dba2659.chunk.js"
+    "revision": "c9f7e41395aeed4188b9",
+    "url": "/amplifi/static/js/main.f1c59151.chunk.js"
   },
   {
     "revision": "9f9f0c7ff7b58516d812",
