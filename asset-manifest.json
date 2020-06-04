@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/amplifii/static/css/main.cda36a3e.chunk.css",
-    "main.js": "/amplifii/static/js/main.423e7e01.chunk.js",
-    "main.js.map": "/amplifii/static/js/main.423e7e01.chunk.js.map",
+    "main.js": "/amplifii/static/js/main.f118efdb.chunk.js",
+    "main.js.map": "/amplifii/static/js/main.f118efdb.chunk.js.map",
     "runtime-main.js": "/amplifii/static/js/runtime-main.ab547649.js",
     "runtime-main.js.map": "/amplifii/static/js/runtime-main.ab547649.js.map",
-    "static/js/2.806c6d88.chunk.js": "/amplifii/static/js/2.806c6d88.chunk.js",
-    "static/js/2.806c6d88.chunk.js.map": "/amplifii/static/js/2.806c6d88.chunk.js.map",
+    "static/js/2.9cd6b708.chunk.js": "/amplifii/static/js/2.9cd6b708.chunk.js",
+    "static/js/2.9cd6b708.chunk.js.map": "/amplifii/static/js/2.9cd6b708.chunk.js.map",
     "index.html": "/amplifii/index.html",
-    "precache-manifest.9f42890b303b7e505781f795e6201082.js": "/amplifii/precache-manifest.9f42890b303b7e505781f795e6201082.js",
+    "precache-manifest.e89d661da5edd071f7dd6f095cf5d33a.js": "/amplifii/precache-manifest.e89d661da5edd071f7dd6f095cf5d33a.js",
     "service-worker.js": "/amplifii/service-worker.js",
     "static/css/main.cda36a3e.chunk.css.map": "/amplifii/static/css/main.cda36a3e.chunk.css.map",
-    "static/js/2.806c6d88.chunk.js.LICENSE.txt": "/amplifii/static/js/2.806c6d88.chunk.js.LICENSE.txt",
+    "static/js/2.9cd6b708.chunk.js.LICENSE.txt": "/amplifii/static/js/2.9cd6b708.chunk.js.LICENSE.txt",
     "static/media/logo.png": "/amplifii/static/media/logo.0466d9e7.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ab547649.js",
-    "static/js/2.806c6d88.chunk.js",
+    "static/js/2.9cd6b708.chunk.js",
     "static/css/main.cda36a3e.chunk.css",
-    "static/js/main.423e7e01.chunk.js"
+    "static/js/main.f118efdb.chunk.js"
   ]
 }
