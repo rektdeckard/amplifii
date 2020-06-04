@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9bc1192a96b894b52d3aac61642c6811",
+    "revision": "67cf0ae9c1041874e6aac563022e27e7",
     "url": "/amplifii/index.html"
   },
   {
