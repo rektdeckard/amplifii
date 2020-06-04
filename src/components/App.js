@@ -27,16 +27,19 @@ const App = () => {
   const [shareLink, setShareLink] = useState("");
 
   const handleEmailChanged = ({ target: { value } }) => {
+    // TODO: add email validation
     setEmail(value);
     setShareLink("");
   };
 
   const handleCcChanged = ({ target: { value } }) => {
+    // TODO: add email validation
     setCc(value);
     setShareLink("");
   };
 
   const handleBccChanged = ({ target: { value } }) => {
+    // TODO: add email validation
     setBcc(value);
     setShareLink("");
   };
@@ -63,6 +66,7 @@ const App = () => {
         setShareLink(response);
         setInitialized(true);
       } catch (e) {
+        // If URL minification fails, fallback to full encoded URL
         console.error(e);
         setShareLink(url);
       }
@@ -183,7 +187,7 @@ const App = () => {
             />
           </div>
 
-          {!!shareLink.length ? (
+          {shareLink.length ? (
             <ShareWidget link={shareLink} />
           ) : (
             renderButton()
