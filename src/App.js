@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import TinyURL from "tinyurl";
 import logo from "./assets/logo.png";
 
 const App = () => {
@@ -36,16 +37,22 @@ const App = () => {
     setShareLink("");
   };
 
-  const generateURI = () => {
+  const generateURI = async () => {
     if (email.length && subject.length && body.length) {
-      setShareLink(
-        encodeURI(
-          `mailto:${email}?${cc.length ? `&cc=${cc}` : ""}${
-            bcc.length ? `&bcc=${bcc}` : ""
-          }&subject=${subject}&body=${body}`
-        )
+      const url = encodeURI(
+        `mailto:${email}?subject=${subject}&body=${body}${
+          cc.length ? `&cc=${cc}` : ""
+        }${bcc.length ? `&bcc=${bcc}` : ""}`
       );
-      setInitialized(true);
+      try {
+        const response = await TinyURL.shorten(url);
+        setShareLink(response);
+        setInitialized(true);
+      } catch (e) {
+        console.error(e);
+        setShareLink(url);
+      }
+
       return;
     }
 
@@ -133,7 +140,7 @@ C32.426,76.026,42.69,76.026,49.024,69.692z"
   return (
     <div className="min-h-screen min-w-screen p-8 md:p-24 bg-purple-600">
       <div className="max-w-lg mx-auto px-4 pb-8">
-        <img src={logo} />
+        <img src={logo} alt="amplifii.us logo" />
         {/* <p className="font-mono text-4xl text-purple-200">amplifii.us</p> */}
         <p className="text-sm text-justify text-purple-200">
           Boost the signal of your political message by sharing direct links
